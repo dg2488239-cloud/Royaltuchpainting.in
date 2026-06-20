@@ -47,3 +47,5 @@
 
 </html>
 Updated website
+<h2>Our Recent Projects</h2>
+<h2>Contact Us</h2> 
