@@ -1,3 +1,0 @@
-const nav=document.querySelector(".nav");document.querySelector(".menu").onclick=()=>nav.classList.toggle("open");
-document.querySelectorAll("nav a").forEach(a=>a.onclick=()=>nav.classList.remove("open"));
-document.getElementById("form").onsubmit=e=>{e.preventDefault();const f=new FormData(e.target);const m=`Hi Royal Tuch Painting,%0A%0AName: ${f.get("name")}%0APhone: ${f.get("phone")}%0AService: ${f.get("service")}%0AMessage: ${f.get("message")||"I need a quotation."}`;window.open("https://wa.me/919035376925?text="+m,"_blank")};
