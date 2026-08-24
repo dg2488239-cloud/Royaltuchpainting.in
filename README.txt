@@ -1,20 +1,16 @@
-ROYAL TUCH PAINTING WEBSITE
-===========================
-Ready for GitHub Pages.
+ROYAL TUCH PAINTING - FINAL WEBSITE
+====================================
+This package uses the real logo, real project photos and real Google review screenshots supplied in the chat.
 
-Files:
-- index.html
-- style.css
-- script.js
-- texture-project.jpeg
-- decorative-project.jpeg
+Contact:
+Call: 8009503341
+WhatsApp: 9035376925
+Website: royaltuchpainting.in
 
-WhatsApp/phone already set to: +91 90353 76925
+UPLOAD:
+Upload the contents of this folder (index.html, style.css, script.js and assets/) into your hosting public_html/root folder.
 
-To publish:
-1. Open your existing GitHub repository used for royaltuchpainting.in.
-2. Replace/upload index.html, style.css, script.js and the two JPEG files.
-3. Commit the changes.
-4. GitHub Pages will publish the updated site.
-
-The site is designed as a premium, minimal painting-service website inspired by the structure of the reference site, while using Royal Tuch Painting branding and your own uploaded project photos.
+IMPORTANT:
+- The displayed project count/experience numbers should be changed if they are not accurate.
+- The review wording is based on the screenshots provided; keep only reviews that are genuinely published on your Google Business Profile.
+- The cost calculator is an approximate starting calculator. Adjust rates to your actual pricing.
