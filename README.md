@@ -1,4 +1,5 @@
- https://github.com/dg2488239-cloud/Royaltuchpainting.in/blob/564cc0191bcd5448676ed0b76cca393f93ae0170/<img src="IMG_6962.png" alt="Royal Tuch Painting Logo" width="150">
+ <img src="IMG_6962.png" alt="Royal Tuch Painting Logo" width="150">
+
    index.html
 <!DOCTYPE html>
 
