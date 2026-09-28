@@ -1,63 +1,4 @@
-<img src="images/photo1.jpg" alt="Painting Work">
-
-
-
-
-   index.html
 <!DOCTYPE html>
-
-<html>
-
-<head>
-
-<meta charset="UTF-8">
-
-<title>Royal Tuch Painting</title>
-
-</head>
-
-<body>
-
-<h1>Royal Tuch Painting</h1>
-
-<p>Professional House Painting Service</p>
-
-<h2>Services</h2>
-
-<ul>
-
-<li>Interior Painting</li>
-
-<li>Exterior Painting</li>
-
-<li>Wall Putty</li>
-
-<li>Texture Painting</li>
-
-<li>Royale Play</li>
-
-<li>Waterproofing</li>
-
-<li>Wood Polish</li>
-
-<li>Metal Painting</li>
-
-<li>Apartment Painting</li>
-
-<li>Villa Painting</li>
-
-</ul>
-
-</body>
-
-</html>
-Updated website
-<h2>Our Recent Projects</h2>
-<h2>Contact Us</h2> 
-src="GOOGLE_MAPS_LINK"
-from pathlib import Path
-
-html = r'''<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -74,7 +15,7 @@ html = r'''<!DOCTYPE html>
   <header>
     <div class="container">
       <a href="#home" class="logo-link">
-        <img src="logo.jpg" alt="Royal Tuch Painting logo">
+        <img src="images/logo.jpg" onerror="this.src='IMG_6962.png'" alt="Royal Tuch Painting logo">
       </a>
 
       <nav>
@@ -180,17 +121,17 @@ html = r'''<!DOCTYPE html>
 
         <div class="gallery">
           <figure>
-            <img src="project-geometric-wall.jpg" alt="Geometric feature wall painting project" loading="lazy">
+            <img src="images/project-geometric-wall.jpg" onerror="this.src='project-geometric-wall.jpg'" alt="Geometric feature wall painting project" loading="lazy">
             <figcaption>Geometric Feature Wall</figcaption>
           </figure>
 
           <figure>
-            <img src="project-feature-wall.jpg" alt="Premium feature wall painting project" loading="lazy">
+            <img src="images/project-feature-wall.jpg" onerror="this.src='project-feature-wall.jpg'" alt="Premium feature wall painting project" loading="lazy">
             <figcaption>Premium Feature Wall</figcaption>
           </figure>
 
           <figure>
-            <img src="brand-original.jpg" alt="Royal Tuch Painting project" loading="lazy">
+            <img src="images/brand-original.jpg" onerror="this.src='brand-original.jpg'" alt="Royal Tuch Painting project" loading="lazy">
             <figcaption>Royal Tuch Painting Work</figcaption>
           </figure>
         </div>
@@ -203,19 +144,19 @@ html = r'''<!DOCTYPE html>
 
         <div class="review-grid">
           <article class="review-card">
-            <img src="review-excellent-work.jpg" alt="Customer review proof" loading="lazy">
+            <img src="images/review-excellent-work.jpg" onerror="this.src='review-excellent-work.jpg'" alt="Customer review proof" loading="lazy">
             <h3>Excellent Work</h3>
             <p>Professional finishing and good quality work.</p>
           </article>
 
           <article class="review-card">
-            <img src="review-arvind.jpg" alt="Arvind customer review" loading="lazy">
+            <img src="images/review-arvind.jpg" onerror="this.src='review-arvind.jpg'" alt="Arvind customer review" loading="lazy">
             <h3>Arvind</h3>
             <p>Good service and professional painting work.</p>
           </article>
 
           <article class="review-card">
-            <img src="review-ashish.jpg" alt="Ashish customer review" loading="lazy">
+            <img src="images/review-ashish.jpg" onerror="this.src='review-ashish.jpg'" alt="Ashish customer review" loading="lazy">
             <h3>Ashish</h3>
             <p>Very good painting work and finishing.</p>
           </article>
@@ -293,14 +234,13 @@ html = r'''<!DOCTYPE html>
 
   <footer>
     <div class="container">
-      <img src="logo.jpg" alt="Royal Tuch Painting logo" loading="lazy">
+      <img src="images/logo.jpg" onerror="this.src='IMG_6962.png'" alt="Royal Tuch Painting logo" loading="lazy">
       <p>© 2026 Royal Tuch Painting Services Bangalore. All rights reserved.</p>
       <p>Interior • Exterior • Texture • Waterproofing • Premium Painting</p>
     </div>
   </footer>
 
   <script>
-    // Quick estimate calculator
     const calcArea = document.getElementById("calcArea");
     const calcType = document.getElementById("calcType");
     const estimate = document.getElementById("estimate");
@@ -317,7 +257,6 @@ html = r'''<!DOCTYPE html>
     calcArea.addEventListener("input", updateEstimate);
     calcType.addEventListener("change", updateEstimate);
 
-    // WhatsApp quote form
     const quoteForm = document.getElementById("quoteForm");
 
     quoteForm.addEventListener("submit", function (event) {
@@ -354,7 +293,6 @@ html = r'''<!DOCTYPE html>
       window.open(whatsappURL, "_blank");
     });
 
-    // Keep phone input numeric
     document.getElementById("phone").addEventListener("input", function () {
       this.value = this.value.replace(/\D/g, "").slice(0, 10);
     });
@@ -362,9 +300,3 @@ html = r'''<!DOCTYPE html>
 
 </body>
 </html>
-'''
-
-path = Path("/mnt/data/index.html")
-path.write_text(html, encoding="utf-8")
-print(f"Created: {path}")
-print(f"Size: {path.stat().st_size} bytes")
