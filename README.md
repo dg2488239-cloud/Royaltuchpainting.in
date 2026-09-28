@@ -1,4 +1,4 @@
- <img src="IMG_6962.png" alt="Royal Tuch Painting Logo" width="150">
+ <img src="logo.jpg.png alt="Royal Tuch Painting Logo" width="150">
 
    index.html
 <!DOCTYPE html>
